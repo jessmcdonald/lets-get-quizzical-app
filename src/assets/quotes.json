@@ -1,0 +1,128 @@
+[
+    {
+        "label": "Who said: \"Be yourself; everyone else is already taken.\" ?",
+        "choices": [
+            {
+                "value": "Charles Dickens",
+                "correct": false
+            },
+            {
+                "value": "Oscar Wilde",
+                "correct": true
+            },
+            {
+                "value": "James Joyce",
+                "correct": false
+            },
+            {
+                "value": "Mark Twain",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "label": "Who said: \"Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.\" ?",
+        "choices": [
+            {
+                "value": "Albert Einstein",
+                "correct": true
+            },
+            {
+                "value": "Stephen Hawking",
+                "correct": false
+            },
+            {
+                "value": "Marie Curie",
+                "correct": false
+            },
+            {
+                "value": "Erwin Schrödinger",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "label": "Who said: \"Always remember that you are absolutely unique. Just like everyone else.\" ?",
+        "choices": [
+            {
+                "value": "Ruth Benedict",
+                "correct": false
+            },
+            {
+                "value": "Margaret Mead",
+                "correct": true
+            },
+            {
+                "value": "Franz Boas",
+                "correct": false
+            },
+            {
+                "value": "Jane Goodall",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "label": "Who said: \"The question isn't who is going to let me; it's who is going to stop me.\" ?",
+        "choices": [
+            {
+                "value": "Friedrich Nietzsche",
+                "correct": false
+            },
+            {
+                "value": "Kurt Vonnegut",
+                "correct": false
+            },
+            {
+                "value": "Ayn Rand",
+                "correct": true
+            },
+            {
+                "value": "William Golding",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "label": "Who said: \"The best way to find out if you can trust somebody is to trust them.\" ?",
+        "choices": [
+            {
+                "value": "Ernest Hemmingway",
+                "correct": true
+            },
+            {
+                "value": "F. Scott Fitzgerald",
+                "correct": false
+            },
+            {
+                "value": "Gertrude Stein",
+                "correct": false
+            },
+            {
+                "value": "John Steinbeck",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "label": "Who said: \"The way to right wrongs is to turn the light of truth upon them.\" ?",
+        "choices": [
+            {
+                "value": "A. Philip Randolph",
+                "correct": false
+            },
+            {
+                "value": "Bayard Rustin",
+                "correct": false
+            },
+            {
+                "value": "Rosa Parks",
+                "correct": false
+            },
+            {
+                "value": "Ida B. Wells",
+                "correct": true
+            }
+        ]
+    }
+]

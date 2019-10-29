@@ -1,0 +1,20 @@
+<!--*ngIf only renders quiz div if condition is true -->
+<div class="quiz" *ngIf="question">
+
+    <!-- interpolation - similar to React ${}-->
+    <h1>{{question.label}}</h1>
+
+    <form [formGroup]="form">
+
+        <div class="form-group">
+
+            <!--ngFor loops over collection inside template,
+                here: render as many radio buttons as there are choices in question-->
+            <label *ngFor="let choice of question.choices">
+                <input type="radio" [value]="choice" formControlName="choice">
+                <span>{{choice.value}}</span>
+
+            </label>
+        </div>
+    </form>
+</div>
