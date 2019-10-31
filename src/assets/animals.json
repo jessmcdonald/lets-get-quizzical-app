@@ -1,0 +1,57 @@
+[
+    {
+        "label": "The Platypus is a mammal.",
+        "choices": [
+            {
+                "value": "True",
+                "correct": true
+            },
+            {
+                "value": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "label": "What is the name of the family that the domestic cat is a member of?",
+        "choices": [
+            {
+                "value": "Felinae",
+                "correct": false
+            },
+            {
+                "value": "Felidae",
+                "correct": true
+            },
+            {
+                "value": "Felis",
+                "correct": false
+            },
+            {
+                "value": "Kittycat",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "label": "What is the name of the copper-rich protein that creates the blue blood in the Antarctic octopus?",
+        "choices": [
+            {
+                "value": "Cytochrome",
+                "correct": false
+            },
+            {
+                "value": "Iron",
+                "correct": false
+            },
+            {
+                "value": "Methionine",
+                "correct": false
+            },
+            {
+                "value": "Hemocyanin",
+                "correct": true
+            }
+        ]
+    }
+]

@@ -6,9 +6,9 @@
         "fileName": "quotes.json"
     },
     {
-        "label": "French",
-        "name": "french",
-        "description": "Questions about french",
-        "fileName": "french.json"
+        "label": "Animals",
+        "name": "animals",
+        "description": "Questions about animals",
+        "fileName": "animals.json"
     }
 ]
