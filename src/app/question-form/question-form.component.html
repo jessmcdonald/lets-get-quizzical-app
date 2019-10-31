@@ -8,13 +8,18 @@
 
         <div class="form-group">
 
-            <!--ngFor loops over collection inside template,
-                here: render as many radio buttons as there are choices in question-->
-            <label *ngFor="let choice of question.choices">
-                <input type="radio" [value]="choice" formControlName="choice">
-                <span>{{choice.value}}</span>
+            <mat-radio-group formControlName="choice">
+                <!--ngFor loops over collection inside template,
+                    here: render as many radio buttons as there are choices in question-->
 
-            </label>
+                <label *ngFor="let choice of question.choices">
+
+                    <mat-radio-button [value]="choice">
+                        <span>{{choice.value}}</span>
+                    </mat-radio-button>
+
+                </label>
+            </mat-radio-group>
         </div>
     </form>
 </div>

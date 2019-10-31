@@ -7,6 +7,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { MatRadioModule } from '@angular/material/radio';
 
 import { AppComponent } from './app.component';
 import { QuestionFormComponent } from './question-form/question-form.component';
@@ -41,7 +42,8 @@ const appRoutes: Routes = [
     MatButtonModule,
     BrowserAnimationsModule,
     MatGridListModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    MatRadioModule
   ],
   providers: [],
   bootstrap: [AppComponent]
