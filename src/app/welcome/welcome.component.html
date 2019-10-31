@@ -1,0 +1,22 @@
+<div class="mat-app-background">
+
+    <header class="primary-header">
+        <h1>Let's Get Quizzical!</h1>
+        <h3>Choose a quiz topic below to get started</h3>
+    </header>
+
+    <div class="container" fxLayout="row" fxLayout.xs="column" fxLayoutWrap fxLayoutGap="0.5%" fxLayoutAlign="center">
+        <mat-card class="quiz-card" *ngFor="let q of quiz" fxFlex="20%" fxFlex.xs="100%">
+            <mat-card-title fxLayout.gt-xs="row" fxLayout.xs="column">{{q.label}}</mat-card-title>
+            <mat-card-content>{{q.description}}</mat-card-content>
+            <mat-card-actions>
+                <a routerLink="/{{q.name}}">
+                    <button mat-button>
+                        Go to quiz
+                    </button>
+                </a>
+            </mat-card-actions>
+        </mat-card>
+    </div>
+
+</div>

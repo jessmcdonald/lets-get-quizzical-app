@@ -1,0 +1,14 @@
+[
+    {
+        "label": "Quotes",
+        "name": "quotes",
+        "description": "Questions about famous quotes",
+        "fileName": "quotes.json"
+    },
+    {
+        "label": "French",
+        "name": "french",
+        "description": "Questions about french",
+        "fileName": "french.json"
+    }
+]
