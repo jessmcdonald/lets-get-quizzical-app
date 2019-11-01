@@ -7,5 +7,7 @@ import { Answers, Question } from '../quiz.model';
   styleUrls: ['./results.component.scss']
 })
 export class ResultsComponent {
-  @Input() answers: Answers; question: Question;
+  @Input() answers: Answers;
+  @Input() question: Question;
 }
+

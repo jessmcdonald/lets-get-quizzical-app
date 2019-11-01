@@ -1,11 +1,27 @@
 <div class="results">
+
     <h2>Results</h2>
-    <div class="answer" *ngFor="let a of answers.values" [ngClass]="{correct: a.correct}">
-        {{a.value}}
+
+    <div class="container" fxLayout="row" fxLayout.xs="column" fxLayoutWrap fxLayoutGap="0.5%" fxLayoutAlign="center">
+
+        <!--TODO: ngFor both arrays so corresponding answer goes with question-->
+        <div class="questions" fxFlex=50%>
+            <div class="question" *ngFor="let q of question">
+                {{q.label}}
+            </div>
+        </div>
+        <div class="answers" fxFlex="50%">
+            <div class="answer" *ngFor="let a of answers.values" [ngClass]="{correct: a.correct}">
+                {{a.value}}
+            </div>
+        </div>
+
+        <div class="choose-another">
+            <a routerLink="/welcome">
+                <button mat-raised-button class="btn btn-primary">Choose another quiz</button>
+            </a>
+        </div>
+
     </div>
-    <div class="choose-another">
-        <a routerLink="/welcome">
-            <button mat-raised-button class="btn btn-primary">Choose another quiz</button>
-        </a>
-    </div>
+
 </div>
