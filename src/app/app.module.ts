@@ -20,7 +20,7 @@ import { QuestionsComponent } from './questions/questions.component';
 const appRoutes: Routes = [
   { path: 'welcome', component: WelcomeComponent },
   { path: ':quizId', component: QuestionsComponent },
-  { path: '', redirectTo: "welcome", pathMatch: "prefix" },
+  { path: '', redirectTo: 'welcome', pathMatch: 'prefix' },
 ];
 
 //logic would be added to connect components with services so they can be injected with them
