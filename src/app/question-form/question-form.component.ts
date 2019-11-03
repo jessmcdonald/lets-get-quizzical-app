@@ -16,7 +16,7 @@ export class QuestionFormComponent implements OnInit {
   @Input() question: Question;
   @Output() onChoiceMade = new EventEmitter<string>(); //generic type allows to express what data EventEmitter will carry
 
-  private form: FormGroup;
+  form: FormGroup;
 
   //called once component recieved inputs (&all data-bound properites) from calling component
   ngOnInit() {
